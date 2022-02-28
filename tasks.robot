@@ -2,6 +2,7 @@
 Documentation     This robot places orders in the mock websiteRobotSpareBin Inc.
 ...               The input is a URL provided by the user. (https://robotsparebinindustries.com/orders.csv)
 ...               It will:
+...               - access the website to place orders, stored in a vault.
 ...               - Save the order HTML receipt as a PDF.
 ...               - Save a screenshot of the ordered robot.
 ...               - attach a screenshot to the PDF.
@@ -13,11 +14,12 @@ Library           RPA.PDF
 Library           RPA.Archive
 Library           RPA.Dialogs
 Library           OperatingSystem
+Library           RPA.Robocorp.Vault
 Resource          ../sales_robot/tasks.robot
 
 *** Tasks ***
 Order robots from RobotSpareBin Inc.
-    open the intranet website
+    get the url from a vault and open the intranet website
     ${URL}=    Get download URL From User
     download the csv file    ${URL}
     ${robot_orders}=    Read table from CSV    orders.csv
@@ -33,8 +35,9 @@ Order robots from RobotSpareBin Inc.
     [Teardown]    Close Browser
 
 *** Keywords ***
-open the intranet website
-    Open Available Browser    https://robotsparebinindustries.com/#/robot-order
+get the url from a vault and open the intranet website
+    ${secret}=    Get Secret    sparebin
+    Open Available Browser    ${secret}[website_url]
     Wait Until Element Is Visible    css:#root > div > div.modal > div > div > div > div > div > button.btn.btn-dark
 
 get rid of the annoying modal
