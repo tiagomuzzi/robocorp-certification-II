@@ -1,0 +1,15 @@
+{"level":30,"time":"2022-02-28T15:46:34.925Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Listening on 60387"}
+{"level":30,"time":"2022-02-28T15:46:35.010Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2022-02-28T15:46:46.912Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2022-02-28T15:46:46.945Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Start of node method newContext"}
+{"level":30,"time":"2022-02-28T15:46:46.953Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-02-28T15:46:46.971Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Trace file: "}
+{"level":30,"time":"2022-02-28T15:46:46.987Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Changed active context"}
+{"level":30,"time":"2022-02-28T15:46:46.987Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"End of node method newContext"}
+{"level":30,"time":"2022-02-28T15:46:46.991Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2022-02-28T15:46:46.991Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2022-02-28T15:46:48.725Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Video path: undefined"}
+{"level":30,"time":"2022-02-28T15:46:48.726Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Changed active page"}
+{"level":30,"time":"2022-02-28T15:46:51.155Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"End of node method newPage"}
+{"level":30,"time":"2022-02-28T15:46:51.162Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-02-28T15:46:51.401Z","pid":28051,"hostname":"Tiagos-MacBook-Pro-2.local","msg":"End of node method closeAllBrowsers"}
