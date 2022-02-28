@@ -7,7 +7,7 @@ The input is a URL provided by the user.
 ```https://robotsparebinindustries.com/orders.csv```
 
 It will:
-
+* acces the website URL from a vault.
 * Save the order HTML receipt as a PDF.
 * Save a screenshot of the ordered robot.
 * attach a screenshot to the PDF.
