@@ -1,1 +1,6 @@
-Open Browser is for quick experimentation and debugging only. Use New Page for production.
+
+
+====== WebDriver manager ======
+Current firefox version is 94.0
+Get LATEST geckodriver version for 94.0 firefox
+Driver [/Users/TiagoMuzzi/.wdm/drivers/geckodriver/macos/v0.30.0/geckodriver] found in cache
